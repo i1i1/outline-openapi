@@ -1,4 +1,13 @@
 # openapi-client
+
+```sh
+$ openapi-generator-cli -- generate -i spec3.json -g python -o ./openapi
+```
+
+I've only changed name of the package in `pyproject.toml`
+
+Spec taken from here: https://raw.githubusercontent.com/outline/openapi/3e0d51dc54c3ed30d2935cdb187d143f5ff78c29/spec3.json
+
 # Introduction
 
 The Outline API is structured in an RPC style. It enables you to
@@ -416,5 +425,3 @@ Authentication schemes defined for the API:
 ## Author
 
 hello@getoutline.com
-
-
